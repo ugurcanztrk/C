@@ -1,37 +1,37 @@
 # 🧠 C Programming Exercises
 
-| Dosya Adı | Kısaca Ne Yapar? | Öne Çıkan C Konusu |
-|------------|------------------|--------------------|
-| **balance_point_in_array.c** | Dizide sol ve sağ toplamların eşit olduğu denge noktasını bulur. | Döngüler, diziler, koşul kontrolü |
-| **basic_calculator.c** | Kullanıcıdan iki sayı alır, dört işlem yapar. | `switch-case`, kullanıcı girişi |
-| **check_even_odd.c** | Sayının tek mi çift mi olduğunu kontrol eder. | `if-else`, mod operatörü `%` |
-| **check_if_perfect_number.c** | Girilen sayının mükemmel sayı olup olmadığını belirler. | Döngüler, bölenlerin toplamı |
-| **check_positive_negative.c** | Sayının pozitif, negatif veya sıfır olduğunu kontrol eder. | `if-else` koşulu |
-| **column_sum_matrix.c** | Matrisin sütun toplamlarını hesaplar. | 2D diziler, iç içe döngüler |
-| **compare_two_numbers.c** | İki sayıyı karşılaştırır ve büyük olanı yazdırır. | Karşılaştırma operatörleri |
-| **factorial_calculator.c** | Girilen sayının faktöriyelini hesaplar. | Döngü, çarpma, sayaç |
-| **fibonacci_series.c** | Fibonacci dizisini belirli terime kadar yazdırır. | Döngüler, değişken takası |
-| **grade_calculator.c** | Not ortalamasına göre harf notu hesaplar. | `if-else` zinciri, mantıksal aralık |
-| **greatest_of_three_numbers.c** | Üç sayıdan en büyüğünü bulur. | İç içe `if` blokları |
-| **local_maximums_in_array.c** | Dizideki yerel maksimum (tepe) elemanları bulur. | Diziler, karşılaştırma |
-| **matrix_addition.c** | İki matrisi toplayarak yeni matris oluşturur. | 2D diziler, toplama işlemi |
-| **matrix_even_odd_labels.c** | Matris elemanlarını tek/çift olarak etiketler. | 2D diziler, koşul yapısı |
-| **matrix_multiplication.c** | İki matrisin çarpımını hesaplar. | İç içe döngüler, matris işlemleri |
-| **matrix_prime_labels.c** | Matris elemanlarını asal olup olmamasına göre işaretler. | Fonksiyon, asal sayı kontrolü |
-| **most_frequent_number.c** | Dizide en çok tekrar eden sayıyı bulur. | Sayaç dizisi, döngü mantığı |
-| **multiplication_table.c** | Girilen sayı için çarpım tablosu oluşturur. | Döngü, formatlı çıktı |
-| **number_pyramid_pattern.c** | Sayılardan oluşan piramit desen yazdırır. | İç içe döngü, biçimlendirme |
-| **perfect_numbers_1_to_1000.c** | 1–1000 arasındaki tüm mükemmel sayıları bulur. | Döngüler, mod operatörü |
-| **power_calculator.c** | Sayının üssünü hesaplar. | Döngü, üs alma mantığı |
-| **prime_number_check.c** | Sayının asal olup olmadığını kontrol eder. | Döngü, `break` kullanımı |
-| **quadratic_roots.c** | İkinci dereceden denklemin köklerini bulur. | Matematik formülü, `sqrt()` |
-| **random_matrix_pattern.c** | Rastgele elemanlı matris oluşturur. | `rand()` fonksiyonu, 2D diziler |
-| **remove_element_from_array.c** | Diziden belirtilen elemanı kaldırır. | Diziler, kaydırma işlemi |
-| **reverse_number.c** | Girilen sayıyı ters çevirir. | Mod & bölme işlemi |
-| **reverse_number_triangle.c** | Ters sayı üçgeni desenini yazdırır. | İç içe döngü |
-| **second_largest_in_array.c** | Dizideki ikinci en büyük sayıyı bulur. | Karşılaştırma, diziler |
-| **sum_of_digits.c** | Sayının rakamlarının toplamını hesaplar. | Mod & bölme işlemi |
-| **sum_of_even_numbers_1_to_100.c** | 1’den 100’e kadar çift sayıların toplamını bulur. | Döngü, koşullu toplama |
-| **sum_of_first_n_numbers.c** | İlk N doğal sayının toplamını bulur. | `for` döngüsü, toplama |
-| **temperature_converter.c** | Sıcaklığı Celsius ↔ Fahrenheit arasında dönüştürür. | Matematiksel formüller |
-| **two_digit_check.c** | Girilen sayının iki basamaklı olup olmadığını kontrol eder. | Koşul, mantıksal karşılaştırma |
+| File Name | What Does It Do? | Key C Concept(s) |
+|------------|------------------|------------------|
+| **balance_point_in_array.c** | Finds the balance index where the sum on the left equals the sum on the right. | Arrays, loops, conditional control |
+| **basic_calculator.c** | Performs basic arithmetic (+, −, ×, ÷) on two numbers entered by the user. | `switch-case`, user input |
+| **check_even_odd.c** | Checks whether a number is even or odd. | `if-else`, modulo operator `%` |
+| **check_if_perfect_number.c** | Determines if the given number is a perfect number. | Loops, divisor sum |
+| **check_positive_negative.c** | Checks if a number is positive, negative, or zero. | `if-else` statement |
+| **column_sum_matrix.c** | Calculates the sum of each column in a matrix. | 2D arrays, nested loops |
+| **compare_two_numbers.c** | Compares two numbers and displays the greater one. | Comparison operators |
+| **factorial_calculator.c** | Calculates the factorial of a given number. | Loops, multiplication |
+| **fibonacci_series.c** | Generates the Fibonacci sequence up to a given term. | Loops, variable swapping |
+| **grade_calculator.c** | Calculates the grade based on average score and prints a message. | `if-else` chain, logical ranges |
+| **greatest_of_three_numbers.c** | Finds the largest number among three values. | Nested `if` statements |
+| **local_maximums_in_array.c** | Finds local maxima (peaks) in an array. | Arrays, comparisons |
+| **matrix_addition.c** | Adds two matrices element by element. | 2D arrays, addition |
+| **matrix_even_odd_labels.c** | Labels each element of a matrix as even or odd. | 2D arrays, conditions |
+| **matrix_multiplication.c** | Multiplies two matrices using nested loops. | Nested loops, matrix operations |
+| **matrix_prime_labels.c** | Marks each matrix element as prime or not. | Functions, prime check |
+| **most_frequent_number.c** | Finds the most frequently occurring number in an array. | Counting array, loop logic |
+| **multiplication_table.c** | Prints the multiplication table of a given number. | Loops, formatted output |
+| **number_pyramid_pattern.c** | Prints a pyramid pattern made of numbers. | Nested loops, formatting |
+| **perfect_numbers_1_to_1000.c** | Displays all perfect numbers between 1 and 1000. | Loops, modulo |
+| **power_calculator.c** | Calculates the power of a number (base^exponent). | Loops, exponentiation |
+| **prime_number_check.c** | Checks whether a number is prime or not. | Loops, `break` usage |
+| **quadratic_roots.c** | Finds the roots of a quadratic equation. | Math formulas, `sqrt()` function |
+| **random_matrix_pattern.c** | Generates a matrix filled with random numbers. | `rand()` function, 2D arrays |
+| **remove_element_from_array.c** | Removes a specific element from an array. | Arrays, shifting elements |
+| **reverse_number.c** | Reverses the digits of a number. | Modulo, division |
+| **reverse_number_triangle.c** | Prints a reverse number triangle pattern. | Nested loops |
+| **second_largest_in_array.c** | Finds the second largest number in an array. | Arrays, comparisons |
+| **sum_of_digits.c** | Calculates the sum of all digits of a number. | Modulo, arithmetic |
+| **sum_of_even_numbers_1_to_100.c** | Calculates the sum of all even numbers from 1 to 100. | Loops, conditional sum |
+| **sum_of_first_n_numbers.c** | Calculates the sum of the first N natural numbers. | `for` loop, addition |
+| **temperature_converter.c** | Converts temperature between Celsius and Fahrenheit. | Mathematical formulas |
+| **two_digit_check.c** | Checks whether the number is a two-digit number. | Conditional, logical comparison |
